@@ -10,5 +10,6 @@ Convert Asta JSON output to a markdown file.
 ## Features
 - Title + Text from all sections
 - Converts tables
+- Preserves citations
 - Sorted list of references
 - Ignores TLDR section summaries
