@@ -8,13 +8,13 @@ Convert Asta JSON output to a markdown file.
 - a webpage 
 - a python script
 
-The webpage can be used as a browser-based reader for Asta JSON files. The python script can be used to convert the JSON file to a Markdown file.
+Each of them can be used independently to convert Asta JSONs to Markdown. The webpage doubles up as a browser-based reader for the report.
 
 ## Usage 
-### Python
-`python3 convert_report_to_md.py input.json [output.md]`
 ### HTML
 Simply open `index.html` in your browser.
+### Python
+`python3 convert_report_to_md.py input.json [output.md]`
 
 ## Features
 - Title + Text from all sections
