@@ -187,6 +187,11 @@
       align-items: center;
       gap: 8px;
     }
+
+    a {
+      color: #cccccc; 
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -312,9 +317,10 @@
     }
 
     function convertToMarkdown(data) {
+      const reportTitle = String(data.reportTitle || data.query || "").trim();
       const sections = Array.isArray(data.sections) ? data.sections : [];
       const citationIndex = buildCitationIndex(sections);
-      const lines = [];
+      const lines = [`# ${reportTitle}`];
 
       sections.forEach((section) => {
         const title = String(section.title || "").trim();
