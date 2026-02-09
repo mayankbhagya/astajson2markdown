@@ -4,7 +4,8 @@ Convert Asta JSON output to a markdown file.
 
 [AllenAI's Asta](https://asta.allen.ai/) report generation tool allows JSON file download only. This repository contains two tools:
 - a webpage 
-- a python script 
+- a python script
+
 Both can convert the Asta JSON file to a readable MD file.
 
 ## Usage 
