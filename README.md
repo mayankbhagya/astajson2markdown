@@ -12,7 +12,7 @@ Both can convert the Asta JSON file to a readable MD file.
 ### Python
 `python3 convert_report_to_md.py input.json [output.md]`
 ### HTML
-Simply open the page in your browser.
+Simply open `index.html` in your browser.
 
 ## Features
 - Title + Text from all sections
